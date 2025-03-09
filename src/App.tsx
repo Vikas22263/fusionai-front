@@ -16,7 +16,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Intro />} />
-          <Route element={<ProtectedRoute />}>
+          {/* <Route element={<ProtectedRoute />}> */}
             <Route
               path="/FusionAi"
               element={
@@ -26,7 +26,7 @@ function App() {
               }
             />
             <Route path="/pullersdrager" element={<Pullers />} />
-          </Route>
+          {/* </Route> */}
           <Route path="/Privacy-Policy" element={<Privacypolicy />} />
 
           <Route path="/about" element={<About />} />
