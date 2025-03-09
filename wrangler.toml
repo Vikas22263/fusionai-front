@@ -1,13 +1,9 @@
 name = "fusionai-front"
 type = "javascript"
-account_id = "31924aa226cbc1bc07f9ff74712434e8"
-workers_dev = true
-compatibility_date = "2024-03-09"
 
 [build]
 command = "npm run build"
 
-
-
 [site]
 bucket = "./dist"
+pages_build_output_dir = "./dist"
