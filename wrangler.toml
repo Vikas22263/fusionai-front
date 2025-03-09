@@ -7,5 +7,7 @@ compatibility_date = "2024-03-09"
 [build]
 command = "npm run build"
 
+main = "./dist/index.js"
+
 [site]
 bucket = "./dist"
