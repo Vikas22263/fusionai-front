@@ -10,13 +10,6 @@ export default defineConfig({
       react: path.resolve('./node_modules/react'),
     },
   },
-  build: {
-    rollupOptions: {
-      output: {
-        entryFileNames: 'index.js'
-      }
-    }
-  },
   optimizeDeps: {
     exclude: ['react-tradingview-widget'],
   },

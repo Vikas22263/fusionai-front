@@ -1,6 +1,5 @@
 name = "fusionai-front"
 type = "javascript"
-main = "dist/index.js"
 account_id = "31924aa226cbc1bc07f9ff74712434e8"
 workers_dev = true
 compatibility_date = "2024-03-09"
