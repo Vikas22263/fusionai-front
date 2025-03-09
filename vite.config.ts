@@ -10,6 +10,9 @@ export default defineConfig({
       react: path.resolve('./node_modules/react'),
     },
   },
+  build: {
+    target: "esnext"
+  },
   optimizeDeps: {
     exclude: ['react-tradingview-widget'],
   },
