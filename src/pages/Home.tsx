@@ -3,15 +3,26 @@ import StockSlider from "@/components/molecules/StockSlider";
 import MostactiveStock from "@/components/organisms/MostactiveStock";
 import { useAppSelector } from "@/hooks/useReduxTypes";
 import React from "react";
-
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
-
- const {indexData}=useAppSelector((state)=>state.setIndexData)
-  console.log(indexData)
+  const { indexData } = useAppSelector((state) => state.setIndexData);
+  console.log(indexData);
   return (
     <>
-      <IndexIndicator indexData={indexData} />
+      <Helmet>
+        <title>AlgoFusionai</title>
+        <meta
+          name="description"
+          content="Explore the most active stocks and upcoming sectors on AlgoFusionai."
+        />
+        <meta
+          name="keywords"
+          content="stocks, active stocks, upcoming sectors, AlgoFusionai"
+        />
+        <meta name="author" content="AlgoFusionai Team" />
+      </Helmet>
+      {/* <IndexIndicator indexData={indexData} /> */}
 
       <div className="flex flex-col-reverse lg:flex-row gap-5 lg:gap-0 py-6 px-3 md:p-6 box-border justify-evenly h-[90vh] font-inter">
         <div className="lg:w-[50%] lg:h-[60%] max-h-[80%] w-full">

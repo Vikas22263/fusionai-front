@@ -3,11 +3,12 @@ import { Route, Routes } from "react-router-dom";
 import Navbar from "@/components/organisms/Navbar";
 import Intro from "./pages/Intro";
 import GoogleCallback from "./components/auth/GoogleCallback";
-import ProtectedRoute from "./components/auth/ProtectedRoute";
 import About from "./components/pages/about/About";
 import Pullers from "./pages/Pullers";
 import Privacypolicy from "./components/pages/privacy/privacypolicy";
 import { WebSocketProvider } from "./context/socket";
+import ProtectedRoute from "./components/auth/ProtectedRoute";
+
 
 function App() {
   return (

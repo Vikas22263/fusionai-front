@@ -143,7 +143,7 @@ import PRESTIGE from "./images/company_logos/PRESTIGE.png";
 // import PRISMJOINT from "./images/company_logos/PRISMJOINT.png";
 // import PROCTER from "./images/company_logos/PROCTER.png";
 // import PTC from "./images/company_logos/PTC.png";
-// import RELIANCE from "./images/company_logos/RELIANCE.png";
+import RELIANCE from "./images/company_logos/relinceimage.jpeg";
 // import SAIL from "./images/company_logos/SAIL.png";
 // import SAMSUNG from "./images/company_logos/SAMSUNG.png";
 // import SBI from "./images/company_logos/SBI.png";
@@ -160,7 +160,7 @@ import TATAELXSI from "./images/company_logos/TATAELXSI.png";
 // import TATAGLOBAL from "./images/company_logos/TATAGLOBAL.png";
 import TATAMOTORS from "./images/company_logos/TATAMOTORS.png";
 import TATAPOWER from "./images/company_logos/TATAPOWER.png";
-// import TCS from "./images/company_logos/TCS.png";
+import TCS from "./images/company_logos/tsc.jpeg";
 import TITAN from "./images/company_logos/TITAN.png";
 import UBL from "./images/company_logos/UBL.png";
 import ULTRACEMCO from "./images/company_logos/ULTRACEMCO.png";
@@ -169,22 +169,49 @@ import VOLTAS from "./images/company_logos/VOLTAS.png";
 import WIPRO from "./images/company_logos/WIPRO.png";
 import YESBANK from "./images/company_logos/YESBANK.png";
 // import ZYDUSLIFE from "./images/company_logos/ZYDUSLIFE.png";
-import BrandLogo from "./images/brandLogo.png"
+import BrandLogo from "./images/brandLogo.png";
+import ADANIPORTS from "./images/company_logos/adaniport.png";
+import AMBUJACEM from "./images/company_logos/Ambuja cement.png";
+import ASHOKLEY from "./images/company_logos/ashoka-leyland.png";
+import ASIANPAINT from "./images/company_logos/asian-paints-logo.webp";
+import BAJAJ_AUTO from "./images/company_logos/Bajaj_Auto.png";
+import BAJFINANCE from "./images/company_logos/bajajfinance.jpeg"
+// imoprt BAJAJFINSV from "./images/company_logos/bajajfinserv.png"
+import ACC_CEMENT from "./images/company_logos/acc.png"
+import ADANIENT from "./images/company_logos/adani.png"
+import INFY from "./images/company_logos/infy.png"
+import HCLTECH from "./images/company_logos/hcltech.png"
+import HDFCLIFE from "./images/company_logos/HDFCLIFE.png"
+import HDFCBANK from "./images/company_logos/HDFCbank.png"
+import HAL from "./images/company_logos/hal.png"
+import ICICIBANK from "./images/company_logos/ICICIBANK.png"
 export {
   BrandLogo,
-//   TCS,
+  HDFCBANK,
+  TCS,
   TITAN,
   UBL,
   ULTRACEMCO,
+  HCLTECH,
+  HDFCLIFE,
+  HAL,
+  ICICIBANK,
 //   VEDANTA,
   VOLTAS,
   WIPRO,
   YESBANK,
 //   ZYDUSLIFE,
   Bullicon,
+  BAJFINANCE,
+  // BAJAJFINSV,
+  INFY,
   Bullmarket,
   Bearicon,
   Sidebarimage,
+  ASIANPAINT,
+  ASHOKLEY,
+  AMBUJACEM,
+  ADANIPORTS,
   AARTIIND,
   ABBINDIA,
   ABBOTINDIA,
@@ -195,10 +222,13 @@ export {
   ANGELONE,
   APOLLOHOSP,
   APOLLOTYRE,
+  ACC_CEMENT,
+  ADANIENT,
   ASTRAL,
   ATUL,
   AUBANK,
   AXISBANK,
+  BAJAJ_AUTO,
   BANDHANBNK,
   BANKBARODA,
   BANKINDIA,
@@ -325,7 +355,7 @@ export {
 //   PRISMJOINT,
 //   PROCTER,
 //   PTC,
-//   RELIANCE,
+  RELIANCE,
 //   SAIL,
 //   SAMSUNG,
 //   SBI,

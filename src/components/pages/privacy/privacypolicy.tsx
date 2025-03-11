@@ -1,4 +1,3 @@
-
 import {
   Shield,
   AlertTriangle,
@@ -8,9 +7,23 @@ import {
   Lock,
   Scale,
 } from "lucide-react";
+import { Helmet } from "react-helmet-async";
+
 const privacypolicy = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-gray-100">
+      <Helmet>
+        <title>Privacy Policy - AlgoFusionai</title>
+        <meta
+          name="description"
+          content="Read the privacy policy of AlgoFusionai to understand how we handle your data."
+        />
+        <meta
+          name="keywords"
+          content="privacy policy, data protection, AlgoFusionai"
+        />
+        <meta name="author" content="AlgoFusionai Team" />
+      </Helmet>
       {/* Header */}
       {/* <header className="bg-gray-800 border-b border-gray-700">
         <div className="max-w-7xl mx-auto px-4 py-6">

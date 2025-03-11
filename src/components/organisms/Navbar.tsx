@@ -53,7 +53,7 @@ const Navbar = () => {
   // Effect for handling message events
   useEffect(() => {
     const handleMessage = (event: MessageEvent) => {
-      if (event.origin !== "http://localhost:5173") return;
+      if (event.origin !== "https://www.algofusionai.com") return;
 
       if (event.data.type === "UPDATE_STORE") {
         localStorage.setItem("acessToken", JSON.stringify(event.data.token));
@@ -156,7 +156,7 @@ const Navbar = () => {
                     className="text-gray-600 absolute top-2 right-3 dark:text-gray-300"
                     onClick={toggleMenu}
                   >
-                    <X className="h-6 w-6" />
+                    {/* <X className="h-6 w-6" /> */}
                   </button>
 
                   {[

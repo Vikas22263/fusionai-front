@@ -17,7 +17,7 @@ export function LoginForm({ onClose }: LoginProps) {
           className="w-5 h-5"
         />
       ),
-      href: "http://localhost:8000/api/v1/auth/google",
+      href: "https://shrawantravels.com/fusion/api/v1/auth/google",
     },
     // {
     //   name: "GitHub",
