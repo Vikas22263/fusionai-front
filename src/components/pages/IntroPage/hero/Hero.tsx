@@ -31,7 +31,7 @@ export function Hero() {
             </div>
 
               <button onClick={()=>{
-                navigate('/FusionAi')
+                navigate('/screener')
               }} className="bg-[#bd44db] text-black  px-4 py-4 rounded-md flex hover:bg-[#db92db]">
                 Start Trading Now
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />

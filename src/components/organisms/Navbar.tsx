@@ -92,8 +92,8 @@ const Navbar = () => {
                 {[
                   { to: "/", label: "Home", icon: <House height={18} /> },
                   {
-                    to: "/FusionAi",
-                    label: "FusionAi",
+                    to: "/screener",
+                    label: "Screener",
                     icon: <TrendingUpDown height={18} />,
                   },
                   {
@@ -162,8 +162,8 @@ const Navbar = () => {
                   {[
                     { to: "/", label: "Home", icon: <House height={18} /> },
                     {
-                      to: "/FusionAi",
-                      label: "FusionAi",
+                      to: "/screener",
+                      label: "screener",
                       icon: <TrendingUpDown height={18} />,
                     },
                     {
@@ -191,7 +191,7 @@ const Navbar = () => {
 
                   <button
                     onClick={() => {
-                      navigate("/FusionAi");
+                      navigate("/screener");
                       closeNavigation();
                     }}
                     className="bg-gradient-to-r from-purple-500 to-pink-600 text-white px-6 py-2 rounded-lg hover:opacity-90 transition-opacity"

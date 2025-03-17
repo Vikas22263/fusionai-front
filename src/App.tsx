@@ -19,7 +19,7 @@ function App() {
           <Route path="/" element={<Intro />} />
           {/* <Route element={<ProtectedRoute />}> */}
             <Route
-              path="/FusionAi"
+              path="/screener"
               element={
                 <WebSocketProvider>
                   <Home />

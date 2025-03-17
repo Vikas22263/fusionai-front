@@ -32,6 +32,7 @@ export function Footer() {
                 <a
                   key={i}
                   href={link.href}
+                  target="_blank"
                   className="text-gray-400 hover:text-accent-primary transition-colors"
                   aria-label={link.label}
                 >
@@ -75,7 +76,7 @@ export function Footer() {
                       <a
                         href={
                           sectionIndex === 0
-                            ? "/FusionAi"
+                            ? "/screener"
                             : sectionIndex === 1
                             ? "/about"
                             : sectionIndex === 2

@@ -6,22 +6,103 @@ import React from "react";
 import { Helmet } from "react-helmet-async";
 
 const Home = () => {
-  const { indexData } = useAppSelector((state) => state.setIndexData);
-  console.log(indexData);
+  // const { indexData } = useAppSelector((state) => state.setIndexData);
+  // console.log(indexData);
   return (
     <>
       <Helmet>
-        <title>AlgoFusionai</title>
+        {/* ------------------------ */}
+        {/* Page-Specific Title & Meta Tags */}
+        {/* ------------------------ */}
+        <title>
+          Stock Screener: Track Day High/Low, Breakers & Most Active
+          Stocks | AlgoFusionai
+        </title>
         <meta
           name="description"
-          content="Explore the most active stocks and upcoming sectors on AlgoFusionai."
+          content="Analyze real-time livestock stocks with AlgoFusionai's AI-powered screener. Track day high/low, breakout stocks (breakers), and most active equities on NSE/BSE markets."
         />
         <meta
           name="keywords"
-          content="stocks, active stocks, upcoming sectors, AlgoFusionai"
+          content="livestock stock screener, day high low stocks, breakers stocks, most active stocks, NSE livestock data, BSE livestock analysis, breakout stocks screener"
         />
-        <meta name="author" content="AlgoFusionai Team" />
+
+        {/* ------------------------ */}
+        {/* Open Graph & Social Tags */}
+        {/* ------------------------ */}
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://algofusionai.com/screener"
+        />
+        <meta
+          property="og:title"
+          content="Livestock Stock Screener: Day High/Low, Breakers & Active Stocks | AlgoFusionai"
+        />
+        <meta
+          property="og:description"
+          content="Track livestock stocks with AI: Real-time day high/low, breakers, and most active equities on NSE/BSE."
+        />
+        <meta
+          property="og:image"
+          content="https://algofusionai.com/logo.png"
+        />
+
+        {/* ------------------------ */}
+        {/* Twitter Card Tags */}
+        {/* ------------------------ */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Livestock Stock Screener: Track Breakout & Active Stocks | AlgoFusionai"
+        />
+        <meta
+          name="twitter:description"
+          content="AI-powered livestock stock analysis for day high/low, breakers, and most active equities."
+        />
+        <meta
+          name="twitter:image"
+          content="https://algofusionai.com/logo.png"
+        />
+
+        {/* ------------------------ */}
+        {/* Structured Data (Schema.org) */}
+        {/* ------------------------ */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Dataset",
+            name: "Livestock Stock Market Data",
+            description:
+              "Real-time dataset tracking day high/low prices, breakout stocks (breakers), and most active livestock equities on NSE/BSE.",
+            url: "https://algofusionai.com/screener",
+            keywords:
+              "livestock stocks, day high low, breakers, most active stocks",
+            license: "https://algofusionai.com/Privacy-Policy",
+            creator: {
+              "@type": "Organization",
+              name: "AlgoFusionai",
+              url: "https://algofusionai.com",
+            },
+            temporalCoverage: "2023-01-01/2023-12-31",
+            variableMeasured: [
+              "Stock price",
+              "Trading volume",
+              "Price breakout signals",
+            ],
+          })}
+        </script>
+
+        {/* ------------------------ */}
+        {/* Technical SEO Enhancements */}
+        {/* ------------------------ */}
+        <link
+          rel="canonical"
+          href="https://algofusionai.com/screener"
+        />
+        <meta name="robots" content="index, follow, max-image-preview:large" />
       </Helmet>
+
       {/* <IndexIndicator indexData={indexData} /> */}
 
       <div className="flex flex-col-reverse lg:flex-row gap-5 lg:gap-0 py-6 px-3 md:p-6 box-border justify-evenly h-[90vh] font-inter">

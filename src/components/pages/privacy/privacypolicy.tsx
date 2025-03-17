@@ -12,17 +12,61 @@ import { Helmet } from "react-helmet-async";
 const privacypolicy = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-gray-100">
-      <Helmet>
-        <title>Privacy Policy - AlgoFusionai</title>
+       <Helmet>
+        {/* Primary Meta Tags */}
+        <title>Privacy Policy & Data Protection | AI Trading Platform - AlgoFusionai</title>
         <meta
           name="description"
-          content="Read the privacy policy of AlgoFusionai to understand how we handle your data."
+          content="AlgoFusionai's comprehensive privacy policy detailing GDPR compliance, data security measures, and financial data protection for algorithmic trading platforms."
         />
         <meta
           name="keywords"
-          content="privacy policy, data protection, AlgoFusionai"
+          content="AI trading privacy policy, financial data protection, GDPR compliance, algorithmic trading security, NSE BSE data handling"
         />
-        <meta name="author" content="AlgoFusionai Team" />
+        
+        {/* Structured Data */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Privacy Policy",
+            "description": "Data protection and privacy policy for AI-driven trading platform",
+            "url": "https://algofusionai.com/Privacy-Policy",
+            "datePublished": "2024-01-01",
+            "dateModified": "2024-06-01",
+            "publisher": {
+              "@type": "Organization",
+              "name": "AlgoFusionai",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://algofusionai.com/logo.png"
+              }
+            },
+            "about": {
+              "@type": "FinancialService",
+              "name": "Algorithmic Trading Platform"
+            }
+          })}
+        </script>
+
+        {/* Open Graph */}
+        <meta property="og:title" content="Data Protection & Privacy Compliance | AlgoFusionai" />
+        <meta property="og:description" content="GDPR-compliant privacy policy for financial AI platform. Learn how we protect your trading data and ensure security." />
+        <meta property="og:url" content="https://algofusionai.com/privacy-policy" />
+        {/* <meta property="og:image" content="https://algofusionai.com/static/privacy-og.jpg" /> */}
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Financial Data Protection Policy | AlgoFusionai" />
+        <meta name="twitter:description" content="Secure handling of trading data and AI analytics compliance for NSE/BSE markets" />
+        {/* <meta name="twitter:image" content="https://algofusionai.com/static/privacy-twitter.jpg" /> */}
+
+        {/* Compliance Signals */}
+        <meta name="compliance" content="GDPR, ISO/IEC 27001:2022" />
+        <link rel="canonical" href="https://algofusionai.com/Privacy-Policy" />
+        
+        {/* Security Verification */}
+        {/* <meta name="security-txt" content="https://algofusionai.com/.well-known/security.txt" /> */}
       </Helmet>
       {/* Header */}
       {/* <header className="bg-gray-800 border-b border-gray-700">

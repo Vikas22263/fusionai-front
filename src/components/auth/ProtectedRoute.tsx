@@ -38,7 +38,7 @@ const ProtectedRoute: React.FC = () => {
 
   useEffect(() => {
     if (error) {
-      navigate("/intro");
+      navigate("/");
     }
   }, [error, navigate]);
 

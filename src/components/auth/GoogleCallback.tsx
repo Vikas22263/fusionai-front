@@ -6,7 +6,7 @@ const GoogleCallback: React.FC = () => {
     const token = urlParams.get("token");
 
     if (window.opener) {
-      window.opener.postMessage({ type: 'UPDATE_STORE', token }, 'http://localhost:5173');
+      window.opener.postMessage({ type: 'UPDATE_STORE', token }, 'https://algofusionai.com');
     }
     window.close();
   }, []);
