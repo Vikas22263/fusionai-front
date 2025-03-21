@@ -3,7 +3,7 @@ import { MoveDown, MoveUp } from "lucide-react";
 
 const ActiveStock = ({ i,value,mode }) => {
   const {name,c_price,percentage}=value
-
+  console.log(value)
   function isNegative(num) {
     return num < 0;
   }

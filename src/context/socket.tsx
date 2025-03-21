@@ -23,7 +23,8 @@ export const WebSocketProvider = ({ children }) => {
     const getPrevdata = async () => {
       try {
         const response = await Request.get("/previousScripts");
-        dispatch(setPreviousData(response.data.data));
+        console.log(response)
+        dispatch(setPreviousData(response.data.data||[]));
       } catch (error) {
         console.log(error);
       }
@@ -109,7 +110,7 @@ export const WebSocketProvider = ({ children }) => {
         if (response.event === "activeStockConnection") {
           try {
             dispatch(setMostActive(response.data.data));
-            console.log(response.data.data);
+            console.log(response);
           } catch (error) {
             console.log(error);
           }
